@@ -52,4 +52,7 @@ The stimuli and labels were drafted with AI assistance and have not been validat
 
 ## Deviations
 
-None so far.
+- A smoke test of 8 Haiku and 2 Qwen3 calls ran before this plan was committed, to check the code. Those outputs were deleted and not scored.
+- Partial results were viewed once during the run. Nothing was changed as a result.
+- Added after seeing results, and labeled exploratory in the report: benign vs concerning error rates, pair accuracy without P40, and per-case accuracy excluding calls that list two models.
+- The usage record lists a second model in 48 Opus and 94 Sonnet trials. These were kept, and the report gives the sensitivity check.
